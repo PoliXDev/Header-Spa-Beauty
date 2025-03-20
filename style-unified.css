@@ -368,15 +368,6 @@ section.hero-section {
 
 .testimonial-card p {
   color: var(--color-primary);
-  font-size: 0.875rem;
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-.testimonial-card cite {
-  color: var(--color-primary);
-  font-weight: 500;
-  font-style: normal;
 }
 
 .testimonials-layer .testimonial-card:first-child {
