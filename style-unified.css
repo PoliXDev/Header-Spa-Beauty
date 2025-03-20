@@ -1,9 +1,4 @@
-/* 
- * GlowQueen - Spa & Beauty
- * Archivo CSS unificado - Versión limpia
- */
-
-/* Variables */
+/* variables */
 :root {
   --color-primary: #264065;
   --color-secondary: #A9D6CB;
@@ -33,7 +28,7 @@ a {
   padding: 0 1rem;
 }
 
-/* Estructura general */
+/* general structure */
 .min-h-screen {
   min-height: 100vh;
   position: relative;
@@ -53,7 +48,7 @@ header {
   border-bottom: none;
 }
 
-/* Navegación */
+/* navigation */
 .main-nav {
   flex-grow: 1;
   display: flex;
@@ -83,7 +78,7 @@ header {
   color: var(--color-secondary);
 }
 
-/* Dropdown */
+/* dropdown */
 .dropdown {
   position: relative;
 }
@@ -148,7 +143,7 @@ header {
   color: var(--color-primary);
 }
 
-/* Aside del header */
+/* header aside */
 aside {
   position: relative;
   right: 5rem;
@@ -167,7 +162,7 @@ aside.flex.items-center > * {
   margin-left: 1rem;
 }
 
-/* Botones */
+/* buttons */
 .btn-primary {
   background-color: var(--color-primary);
   color: white;
@@ -183,12 +178,12 @@ aside.flex.items-center > * {
   background-color: rgba(38, 64, 101, 0.9);
 }
 
-/* Secciones */
+/* sections */
 section {
   padding: 4rem 0 5rem;
 }
 
-/* Sección hero específica */
+/* hero section */
 section.hero-section {
   min-height: 800px;
   padding: 0;
@@ -200,7 +195,7 @@ section.hero-section {
   background: none;
 }
 
-/* Contenedor principal del hero */
+/* hero content */
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -210,7 +205,7 @@ section.hero-section {
   padding-top: 2rem;
 }
 
-/* Iconos */
+/* icons container */
 .icon-container {
   border-radius: 9999px;
   display: flex;
@@ -229,7 +224,7 @@ section.hero-section {
   box-shadow: 0 6px 15px rgba(169, 214, 203, 0.6);
 }
 
-/* Icono de reproducción */
+/* play icon container */
 .play-icon-container {
   display: flex;
   align-items: center;
@@ -245,7 +240,7 @@ section.hero-section {
   margin: 0 auto;
 }
 
-/* Iconos de estadísticas */
+/* stat icons */
 .stat-icon {
   width: 4rem;
   height: 4rem;
@@ -258,7 +253,7 @@ section.hero-section {
   object-fit: contain;
 }
 
-/* Estilos para Hero Stats */
+/* hero stats */
 .hero-stats {
   text-align: center;
   display: flex;
@@ -296,7 +291,7 @@ section.hero-section {
   text-align: center;
 }
 
-/* Capas con z-index para el lado derecho */
+/* hero right container */
 .hero-right-container {
   position: relative;
   width: 100%;
@@ -306,7 +301,7 @@ section.hero-section {
   margin-top: 0;
 }
 
-/* Background layer - Capa de fondo */
+/* background layer */
 .background-layer {
   position: absolute;
   width: 590px; 
