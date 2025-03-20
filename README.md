@@ -30,11 +30,3 @@ GlowQueen - Spa & Beauty is a front-end web development project that demonstrate
 - CSS Flexbox for layout
 - CSS Transitions for animations
 
-
-
-## Acknowledgments
-
-- Design inspiration from modern spa and beauty websites
-- Icons and vector graphics from various free resources
-- Font pairing inspired by current web design trends
-
