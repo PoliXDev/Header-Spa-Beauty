@@ -29,4 +29,5 @@ GlowQueen - Spa & Beauty is a front-end web development project that demonstrate
 - Mobile-first responsive design
 - CSS Flexbox for layout
 - CSS Transitions for animations
+- Tailwind FrameWork
 
