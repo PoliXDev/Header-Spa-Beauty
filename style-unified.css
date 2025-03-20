@@ -310,7 +310,7 @@ section.hero-section {
 .background-layer {
   position: absolute;
   width: 590px; 
-  height: 820px; 
+  height: 720px; 
   background-color: var(--color-secondary);
   right: 0;
   top: -200px;
@@ -346,7 +346,7 @@ section.hero-section {
   width: 1200px;
   height: 850px;
   top: -170px;
-  left: -550px;
+  left: -520px;
   z-index: 3;
   max-width: none;
 }
