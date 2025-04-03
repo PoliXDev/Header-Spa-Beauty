@@ -62,8 +62,7 @@
             </div>
             <a href="#" class="text-primary hover:text-primary sign-in transition-colors">Sign In</a>
             <button class="btn-primary sign-up">Sign Up</button>
-            
-            <!-- Menú móvil -->
+     
             <button class="text-primary mobile-menu-button">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -123,20 +122,20 @@
             </div>
           </div>
           
-          <!-- left side with z-index layers -->
+  
           <div class="w-full hero-right-container md:w-1/2">
-            <!-- background layer -->
+          
             <div class="background-layer"></div>
             
-            <!-- vector layer -->
+         
             <img src="img/Vector-Flower.png" alt="Decorative flower" class="vector-layer">
             
-            <!-- woman pic layer -->
+    
             <div class="woman-pic-container">
               <img src="img/woman-pic.png" alt="Woman enjoying spa treatment" class="woman-pic-layer">
             </div>
             
-            <!-- testimonials layer -->
+        
             <div class="space-y-6 testimonials-layer">
               <div class="max-w-md ml-auto mr-2 testimonial-card">
                 <div class="mb-3">
@@ -165,7 +164,7 @@
   </div>
 
   <script>
-    // Script to ensure the dropdown menu works correctly
+
     document.addEventListener('DOMContentLoaded', function() {
       const dropdowns = document.querySelectorAll('.dropdown');
       
@@ -173,21 +172,21 @@
         const link = dropdown.querySelector('a');
         const menu = dropdown.querySelector('.dropdown-menu');
         
-        // Show the menu when hovering
+       
         dropdown.addEventListener('mouseenter', () => {
           menu.style.visibility = 'visible';
           menu.style.opacity = '1';
           menu.style.pointerEvents = 'auto';
         });
         
-        // Hide the menu when hovering
+     
         dropdown.addEventListener('mouseleave', () => {
           menu.style.visibility = 'hidden';
           menu.style.opacity = '0';
           menu.style.pointerEvents = 'none';
         });
         
-        // Prevent the link from redirecting when clicking
+        
         link.addEventListener('click', (e) => {
           e.preventDefault();
         });
