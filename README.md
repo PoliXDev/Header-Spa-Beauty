@@ -1,4 +1,4 @@
-# GlowQueen - Spa & Beauty
+![capture](./glowqueen.png)
 
 A modern, responsive landing page for a fictional premium spa and beauty treatment center. This project showcases a clean, elegant design with emphasis on user experience and modern web design principles.
 
